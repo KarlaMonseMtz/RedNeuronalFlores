@@ -8,7 +8,7 @@ Este proyecto implementa y evalúa una red neuronal en MATLAB para la clasificac
 
 El objetivo es entrenar un modelo de aprendizaje profundo capaz de identificar 102 especies de flores comunes en el Reino Unido. El proyecto incluye scripts para el preprocesamiento de datos, el diseño de la arquitectura de la red, el entrenamiento del modelo y la evaluación de su rendimiento, así como una versión mejorada para optimizar los resultados.
 
-## 📂 Contenido del Repositorio
+## Contenido del Repositorio
 
 El repositorio contiene los siguientes archivos fuente en MATLAB:
 
@@ -18,7 +18,7 @@ El repositorio contiene los siguientes archivos fuente en MATLAB:
 | `EntrenamientoEvaluacion.m` | Script encargado del proceso de entrenamiento formal y la evaluación del modelo con el conjunto de validación/prueba. |
 | `MejoraRendimiento2.m` | Versión optimizada del script de entrenamiento con mejoras en hiperparámetros y técnicas de regularización para aumentar la precisión. |
 
-## 📊 Conjunto de Datos (Oxford Flowers 102)
+## Conjunto de Datos (Oxford Flowers 102)
 
 El proyecto utiliza el **102 Category Flower Dataset** de la Universidad de Oxford. Este conjunto de datos es un desafío común en visión por computadora debido a las siguientes características:
 
@@ -27,7 +27,7 @@ El proyecto utiliza el **102 Category Flower Dataset** de la Universidad de Oxfo
 - **Variabilidad:** Las imágenes presentan grandes variaciones de escala, pose e iluminación.
 - **Similitud:** Existen categorías con alta variación intra-clase y otras muy similares entre sí, lo que dificulta la clasificación.
 
-### 📥 Descarga del Dataset
+### Descarga del Dataset
 
 Para ejecutar los scripts, es necesario descargar el conjunto de datos desde el sitio oficial:
 
@@ -41,7 +41,7 @@ Para ejecutar los scripts, es necesario descargar el conjunto de datos desde el 
 - **Deep Learning Toolbox**.
 - **Image Processing Toolbox** (para el preprocesamiento de imágenes).
 
-## 🚀 Ejecución
+## Ejecución
 
 1. Clona este repositorio:
    ```bash
@@ -58,25 +58,11 @@ Para ejecutar los scripts, es necesario descargar el conjunto de datos desde el 
    MejoraRendimiento2
    ```
 
-## 🧠 Metodología
-
-Los scripts implementan un flujo de trabajo típico de visión por computadora:
-
-1. **Carga de datos:** Lectura de imágenes y etiquetas.
-2. **Preprocesamiento:** Redimensionamiento de imágenes y aumento de datos (data augmentation) si aplica.
-3. **Definición de la Red:** Uso de una Red Neuronal Convolucional (CNN) adaptada para la clasificación de 102 clases.
-4. **Entrenamiento:** Ajuste de pesos utilizando el conjunto de entrenamiento.
-5. **Evaluación:** Cálculo de métricas de precisión y matriz de confusión sobre el conjunto de prueba.
-
-## 📈 Resultados
-
-*(Sección pendiente de completar con las métricas obtenidas, como precisión, pérdida y curvas de aprendizaje generadas por los scripts).*
-
-## 👥 Autores
+## Autores
 
 - **Karla Monse Martínez** - [GitHub Profile](https://github.com/KarlaMonseMtz)
 
-## 📚 Referencias
+## Referencias
 
 - Nilsback, M-E. and Zisserman, A. **Automated Flower Classification over a Large Number of Classes**. *Proceedings of the Indian Conference on Computer Vision, Graphics and Image Processing (2008)*.
 - [Oxford Visual Geometry Group - 102 Category Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
